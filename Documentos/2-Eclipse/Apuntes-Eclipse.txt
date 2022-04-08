@@ -1,0 +1,2 @@
+Formateo - Ctrl+Shift+F - formatear código (tabulaciones, saltos de línea,…)
+

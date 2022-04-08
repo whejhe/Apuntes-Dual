@@ -1,0 +1,34 @@
+Buenas Practicas:
+- Actualizar 1 o 2 veces al dia
+
+Primeros Pasos: (Dar de alta tu usuario en el ordenador)
+git config --global tuUsuario.name "nombre"
+git config --global tuUsuario.email "nombre@gmail.com"
+
+Creacion de Repositorio:
+git init
+git add . (subes el proyecto de nivel) o git add --all
+git status -s (vemos que esta pendiente de subir)
+git commit -m "descripcion corta" (sube otro nivel)
+git branch -M main
+git remote add origin https://github.com/whejhe/nombreRepo.git
+git push -u origin main
+
+Para cambios:
+git add .
+git commit -m "descripcion corta"
+git push -u origin main
+
+Crear a la misma altura que .git
+.gitignore (para ignorar una carpeta determinado)
+bin/
+.settings
+
+Crear Ramas:
+git branch nombreRama(por defecto es Master)
+
+Comandos:
+git log --oneline (Muestra todos los commit con su identificador)
+git reset --hard 748958(Identificador) (Vuelve a la version del identificador)
+git checkout nombreRama (cambiar de rama)
+git merge nombreRama(siempre desde la rama Master) (Integra la rama git en Master)
